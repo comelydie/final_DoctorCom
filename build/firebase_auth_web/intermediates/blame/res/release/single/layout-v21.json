@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\Welcome to My World\\Desktop\\work\\4\\final_DoctorCom\\build\\firebase_auth_web\\intermediates\\res\\merged\\release\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\Welcome to My World\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\b58467cae3bbb15fb63a4741371126df\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\Welcome to My World\\Desktop\\work\\4\\final_DoctorCom\\build\\firebase_auth_web\\intermediates\\res\\merged\\release\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\Welcome to My World\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\b58467cae3bbb15fb63a4741371126df\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "C:\\Users\\Welcome to My World\\Desktop\\work\\4\\final_DoctorCom\\build\\firebase_auth_web\\intermediates\\res\\merged\\release\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\Welcome to My World\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\b58467cae3bbb15fb63a4741371126df\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "C:\\Users\\Welcome to My World\\Desktop\\work\\4\\final_DoctorCom\\build\\firebase_auth_web\\intermediates\\res\\merged\\release\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\Welcome to My World\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\b58467cae3bbb15fb63a4741371126df\\res\\layout-v21\\notification_action.xml"
+    }
+]

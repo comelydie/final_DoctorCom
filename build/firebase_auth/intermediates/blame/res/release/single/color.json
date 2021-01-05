@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\Welcome to My World\\Desktop\\work\\4\\final_DoctorCom\\build\\firebase_auth\\intermediates\\res\\merged\\release\\color\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\Welcome to My World\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.1.0.aar\\98912b00cc07d806c7daf9a78401a0b1\\res\\color\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Welcome to My World\\Desktop\\work\\4\\final_DoctorCom\\build\\firebase_auth\\intermediates\\res\\merged\\release\\color\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\Welcome to My World\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.1.0.aar\\98912b00cc07d806c7daf9a78401a0b1\\res\\color\\common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Welcome to My World\\Desktop\\work\\4\\final_DoctorCom\\build\\firebase_auth\\intermediates\\res\\merged\\release\\color\\common_google_signin_btn_tint.xml",
+        "source": "C:\\Users\\Welcome to My World\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.1.0.aar\\98912b00cc07d806c7daf9a78401a0b1\\res\\color\\common_google_signin_btn_tint.xml"
+    }
+]

@@ -84,51 +84,49 @@ class _BodyState extends State<Body> {
       children: <Widget>[
         Container(
           width: SizeConfig.screenWidth*0.8,
-          child: Expanded(
-            child: SizedBox(
-              child: ListView.builder(
-                itemCount: productMenus.length,
-                itemBuilder: (BuildContext context, int index) {
-                  return GestureDetector(
-                    child: Container(
-                      child: Card(
-                        margin: EdgeInsets.all(25),
-                        elevation: 3,
-                        shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(40),
-                        ),
-                        color: Colors.white,
-                        child: Row(
-                          crossAxisAlignment: CrossAxisAlignment.center,
-                          children: <Widget>[
-                            // showImage(index),
-                            Expanded(
-                              child: Column(
-                                crossAxisAlignment: CrossAxisAlignment.center,
-                                mainAxisSize: MainAxisSize.min,
-                                children: <Widget>[
-                                  showImage(index),
-                                  showName(index),
-                                ],
-                              ),
+          child: SizedBox(
+            child: ListView.builder(
+              itemCount: productMenus.length,
+              itemBuilder: (BuildContext context, int index) {
+                return GestureDetector(
+                  child: Container(
+                    child: Card(
+                      margin: EdgeInsets.all(25),
+                      elevation: 3,
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(40),
+                      ),
+                      color: Colors.white,
+                      child: Row(
+                        crossAxisAlignment: CrossAxisAlignment.center,
+                        children: <Widget>[
+                          // showImage(index),
+                          Expanded(
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              mainAxisSize: MainAxisSize.min,
+                              children: <Widget>[
+                                showImage(index),
+                                showName(index),
+                              ],
                             ),
-                          ],
-                        ),
+                          ),
+                        ],
                       ),
                     ),
-                    onTap: () {
-                    print('you click index = $index');
-                    var showDetailRoute = MaterialPageRoute(
-                        builder: (BuildContext context) => ShowDetail(
-                              productMenu: productMenus[index],
-                            ));
-                    Navigator.of(context).push(showDetailRoute);
+                  ),
+                  onTap: () {
+                  print('you click index = $index');
+                  var showDetailRoute = MaterialPageRoute(
+                      builder: (BuildContext context) => ShowDetail(
+                            productMenu: productMenus[index],
+                          ));
+                  Navigator.of(context).push(showDetailRoute);
 
-                    ///click ที่รูปแล้วไปอีกหน้า
-                  },
-                  );
+                  ///click ที่รูปแล้วไปอีกหน้า
                 },
-              ),
+                );
+              },
             ),
           ),
         ),
